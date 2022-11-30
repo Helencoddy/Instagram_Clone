@@ -250,7 +250,7 @@ input {
 /*Friend suggestion section*/
 .sec-main-section {
     width: 25%;
-    margin: 100px 850px;
+    margin: 100px 799px;
     position: absolute;
     inset: 0;
 }
@@ -322,3 +322,16 @@ input {
 }
 
 /**/
+.about-insta span {
+    color: rgb(157, 157, 157);
+    font-size: 12px;
+}
+
+.about-insta {
+    margin-top: 25px;
+    width: 19pc;
+}
+
+.copy {
+    margin-top: 25px;
+}
