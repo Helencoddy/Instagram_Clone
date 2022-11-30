@@ -93,6 +93,7 @@ input {
 /*Main section styling*/
 .main {
     width: 100vw;
+    display: flex;
 }
 
 .story img {
@@ -108,7 +109,7 @@ input {
 .main .first-main-section .story {
     /*box-shadow: 0px 0px 4px #c5c5c5;*/
     width: 50%;
-    border: 1px solid gray;
+    border: 0.3px solid rgb(230, 229, 229);
     position: absolute;
     margin: 30px 130px;    
     background-color: white;
@@ -128,9 +129,9 @@ input {
     margin-top: -12px;
 }
 
-/*main post stylr*/
+/*main post style*/
 .all-main-post {
-    border: 1px solid gray;
+    border: 0.3px solid rgb(230, 229, 229);
     position: absolute;
     margin: 165px 130px;
     padding-bottom: 700px;
@@ -244,3 +245,80 @@ input {
     color: rgb(181, 181, 181);
     position: absolute;
 }
+
+
+/*Friend suggestion section*/
+.sec-main-section {
+    width: 25%;
+    margin: 100px 850px;
+    position: absolute;
+    inset: 0;
+}
+
+.all-suggestion-friends {
+
+}
+
+.suggestion-me {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.meimage {
+   width: 50px;
+   height: 50px;
+   border-radius: 50%;
+}
+
+.suggestion-me .me-img {
+    display: flex;
+    align-items: center;
+}
+
+.me-detail {
+    margin-left: 10px;
+}
+
+.me-detail p {
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+.me-detail p:nth-child(1) {
+    font-size: 1rem;
+    
+}
+
+.me-detail p:nth-child(2) {
+    font-size: 0.8rem;
+    color: rgb(157, 157, 157);
+}
+
+.switch a {
+    color: rgb(12, 154, 246);
+    font-weight: 800;
+}
+
+/*Style suggestion for you*/
+.seperate-to-sugg {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    cursor: pointer;
+}
+
+.seperate-to-sugg p:first-child {
+    color: rgb(157, 157, 157);
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.seperate-to-sugg p:nth-child(2) {
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+/**/
