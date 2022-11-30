@@ -1,0 +1,246 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: ;
+}
+
+/*Navigation Logo*/
+.logo {
+    display: block;
+    width: 80px;
+    cursor: pointer;
+}
+
+/*Navigation bar*/
+.nav {
+    width: 100vw;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #ffffff;
+    align-items: center;
+    padding: 13px 0px;
+    /*border: 0.2px solid gray;*/
+    box-shadow: 0px 0px 2px #8d8d8d;
+}
+
+.wrapper {
+    align-items: center;
+}
+
+/*Search box*/
+
+.search-box {
+    background-color: rgb(239, 239, 239);
+    padding: 3px 10px;
+    border-radius: 7px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+input {
+    border: none;
+    outline: none;
+    padding: 3px 4px;
+    background-color: rgb(239, 239, 239);
+    border-radius: 3px;
+    text-align: center;
+}
+
+.input-type {
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+}
+
+.search-box i {
+    color: rgb(181, 181, 181);
+    position: absolute;
+}
+
+/*Navigation icon*/
+.nav .right-icons ul {
+    display: flex;
+    cursor: pointer;
+}
+
+.nav .right-icons ul li {
+    padding: 3px 10px;
+    align-items: center;
+}
+
+.nav .right-icons ul li {
+    border-radius: 20px;
+}
+
+/*Navigation image*/
+.image,
+.user-img{
+    width: 20px;
+    height: 20px; 
+    border-radius: 50%;
+}
+
+/*End of Navigation image*/
+
+/*Main section styling*/
+.main {
+    width: 100vw;
+}
+
+.story img {
+    width: 90px;
+    border-radius: 70px;
+    padding: 7px 12px;
+}
+
+.main .first-main-section {
+
+}
+
+.main .first-main-section .story {
+    /*box-shadow: 0px 0px 4px #c5c5c5;*/
+    width: 50%;
+    border: 1px solid gray;
+    position: absolute;
+    margin: 30px 130px;    
+    background-color: white;
+    /*padding: 20px 50x;*/
+}
+
+.story ul {
+    display: flex;
+}
+
+.story .story1 p {
+    text-align: center;
+    font-size: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    padding: 0px 5px 5px 0px;
+    margin-top: -12px;
+}
+
+/*main post stylr*/
+.all-main-post {
+    border: 1px solid gray;
+    position: absolute;
+    margin: 165px 130px;
+    padding-bottom: 700px;
+    width: 50%;
+}
+
+.user-details {
+    display: flex;
+    padding: 5px;
+}
+
+.user-del {
+    padding-left: 530px;
+}
+
+.user-information {
+    display: flex;
+}
+
+.user-information p {
+    text-align: center;
+    font-size: 13px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    padding-left: 10px;
+    /*margin-top: -8px;*/
+}
+
+.post-image {
+    width: 631px;
+    margin: 210px 130px;
+}
+
+.top-icons {
+    display: flex;
+}
+
+.left-top-icons i {
+    padding: 7px 12px;
+    padding-bottom: 40px;
+    margin-bottom: 60px;
+}
+
+.left-top-icons ul {
+    display: flex;
+    position: absolute;
+    inset: 0;
+    margin: 165px 130px;
+    margin-top: 58.5%;
+    padding-left: 5px;
+}
+
+.user1p {
+    line-height: 20px;
+    margin-bottom: 10px;
+}
+
+.view {
+    font-size: 12px;
+    margin-bottom: 8px;
+}
+
+.minutes {
+    font-size: 11px;
+    margin-bottom: 10px;
+}
+
+/*.bookmark {
+    display: flex;
+    padding-left: 530px;
+}*/
+
+.text {
+    display: flex;
+    position: absolute;
+    margin: 165px 130px;
+    padding-top: 600px;
+    padding-left: 15px;
+    width: 40pc;
+    inset: 0;
+    font-size: 14px;
+}
+
+.input-box {
+    background-color: white;
+    padding: 10px 50px;
+    margin-right: 70%;
+    height: 61px;
+    border-radius: 7px;
+    width: 90%;
+    margin-bottom: 10px;
+}
+
+.input-box-type {
+    border: none;
+    outline: none;
+    padding: 3px 4px;
+    background-color: white;
+    border-radius: 3px;
+    text-align: center;
+}
+
+.input-type {
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+}
+
+
+.search-box i {
+    color: rgb(181, 181, 181);
+    position: absolute;
+}
